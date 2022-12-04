@@ -2,17 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0 auto;
 }
 
-
+/******************* header ****************/
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: azure;
     padding: 50px 0px;
+    margin: 0 130px;
+
+    
+}
+.logo{
+   
 }
 .nav{
+   
    
 }
 .nav li{
@@ -29,4 +40,84 @@ header{
 .nav li a:hover{
     color: black;
     border-bottom: 1px solid black;
+}
+
+
+/****************** container ****************/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    margin: 0  130px;
+
+}
+
+main{
+    width: 68%;
+}
+.container main img{
+    border-radius: 5px;
+}
+#button{
+    text-decoration: none;
+    padding: 15px;
+   letter-spacing: 0.3rem;
+    color: white;
+    background-color: rgb(173, 50, 50);
+    border-radius: 2px;
+    margin-left: 50px;
+}
+#button:hover{
+    background-color: rgb(218, 38, 38);
+}
+
+.web3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.web3 h1{
+    width: 40%;
+    font-size: 3rem;
+    
+}
+.lorem{
+    width: 60%;
+}
+.lorem p{
+    margin-bottom: 30px;
+    color: rgb(59, 54, 54);
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+/****************************** aside *************************/
+
+aside{
+    color: white;
+    background-color : rgb(5, 5, 34);
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 28%;
+    
+}
+.aside{
+    padding: 30px;
+}
+.aside h1{
+    font-size: 2rem;
+    color: rgb(230, 230, 71);
+}
+.aside h4{
+    margin-top: 30px;
+
+}
+.aside p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    color: rgba(255, 255, 255, 0.418);
+
 }

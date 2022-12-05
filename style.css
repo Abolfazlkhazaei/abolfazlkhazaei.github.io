@@ -6,6 +6,7 @@
 }
 body{
     margin: 0 auto;
+    background-color: azure;
 }
 
 /******************* header ****************/
@@ -120,4 +121,39 @@ aside{
     margin-bottom: 20px ;
     color: rgba(255, 255, 255, 0.418);
 
+}
+/************************footer ***********************/
+footer{
+    display: flex;
+    background-color: azure;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 75px;
+    height: 400px;
+
+}
+.card{
+    display: flex;
+    height: 100px;
+}
+.card img{
+    width: 22%;
+}
+.child{
+    width: 68%;
+    display: block;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+.child .des{
+    font-size: 14px;
+    color: rgba(46, 44, 44, 0.534);
+}
+.child .bold{
+   font-size: 16px;
+   font-weight: bold;
+}
+.child h3{
+    font-size: larger;
+    color: rgb(114, 105, 105);
 }
